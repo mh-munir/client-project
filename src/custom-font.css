@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Circular';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/avc-circ-light.woff2) format('woff2');
+}
+@font-face {
+font-family: 'Circular';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(../fonts/avc-circ-regular.woff2) format('woff2');
+}
+@font-face {
+font-family: 'Circular';
+font-style: normal;
+font-weight: 500;
+font-display: swap;
+src: url(../fonts/avc-circ-medium.woff2) format('woff2');
+}
+@font-face {
+font-family: 'Circular';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(../fonts/avc-circ-bold.woff2) format('woff2');
+}

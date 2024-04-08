@@ -761,12 +761,12 @@ html{
   margin-bottom: 1.5rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .box-border {
@@ -2131,10 +2131,6 @@ html{
      object-position: center;
 }
 
-.p-24 {
-  padding: 6rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -2167,10 +2163,6 @@ html{
 
 .pb-\[40px\] {
   padding-bottom: 40px;
-}
-
-.pt-24 {
-  padding-top: 6rem;
 }
 
 .pt-\[40px\] {
@@ -2390,10 +2382,6 @@ html{
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[15\] {
-  color: 15;
 }
 
 .underline {

@@ -1382,6 +1382,10 @@ header.sticky{
   list-style-position: outside;
 }
 
+.list-decimal {
+  list-style-type: decimal;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -2461,10 +2465,6 @@ header.sticky{
   padding-bottom: 6rem;
 }
 
-.pb-28 {
-  padding-bottom: 7rem;
-}
-
 .pb-52 {
   padding-bottom: 13rem;
 }
@@ -2479,6 +2479,10 @@ header.sticky{
 
 .pb-\[40px\] {
   padding-bottom: 40px;
+}
+
+.pl-11 {
+  padding-left: 2.75rem;
 }
 
 .pl-6 {
@@ -3428,8 +3432,8 @@ header.sticky{
     padding-bottom: 7rem;
   }
 
-  .md\:pb-52 {
-    padding-bottom: 13rem;
+  .md\:pb-32 {
+    padding-bottom: 8rem;
   }
 
   .md\:pt-16 {
@@ -3438,6 +3442,10 @@ header.sticky{
 
   .md\:pt-24 {
     padding-top: 6rem;
+  }
+
+  .md\:pt-32 {
+    padding-top: 8rem;
   }
 
   .md\:text-left {
@@ -3549,19 +3557,6 @@ header.sticky{
   .lg\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
-  }
-
-  .lg\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
-  .lg\:pb-\[216px\] {
-    padding-bottom: 216px;
-  }
-
-  .lg\:pt-32 {
-    padding-top: 8rem;
   }
 
   .lg\:text-left {

@@ -11,27 +11,8 @@
     <link href="src/output.css" rel="stylesheet" />
   </head>
   <body class="bg-lvory">
-    <!-- Header -->
-    <header class="w-full shadow-md">
-        <nav class="max-w-[1070px] mx-auto flex justify-between items-center py-12 px-5">
-            <a class="block max-w-52" href="/"> <img class="w-full h-auto" src="img/logo.svg" alt="Amigo Venture Capital"></a>
-            <ul class="flex gap-x-11">
-                <li>
-                    <a class="text-lg font-normal text-charcoal capitalize" href="entrepreneurs.html">For Entrepreneurs</a>
-                </li>
-                <li>
-                    <a class="text-lg font-normal text-charcoal capitalize" href="network.html">Network</a>
-                </li>
-                <li>
-                    <a class="text-lg font-normal text-charcoal capitalize" href="news.html">News</a>
-                </li>
-                <li>
-                    <a class="text-lg font-normal text-charcoal capitalize" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
 
+    <!-- Main -->
     <main class="min-h-screen">
         <section class="pt-10 md:pt-24">
             <div class="max-w-[1070px] mx-auto px-5">
@@ -122,20 +103,21 @@
             </div>
         </section>
     </main>
-   <footer class="bg-charcoal py-10 lg:py-24">
+    <!-- Footer -->
+    <footer class="bg-charcoal py-[73px] lg:py-24">
         <div class="max-w-[1070px] mx-auto px-5 flex flex-col lg:flex-row items-center gap-5 justify-between">
-            <div class="flex flex-col lg:flex-row items-center gap-8 md:gap-5">
+            <div class="flex flex-col lg:flex-row items-center gap-y-12 gap-x-8 md:gap-5">
                 <img class="w-[76px] h-[48px]" src="img/footer-logo.svg" alt="Brand name">
-                <p class="text-sm text-white font-light text-center md:text-left"> © 2024 Amigos Venture Capital LLC . All rights reserved. </p>
+                <p class="w-[235px] md:w-full text-sm text-white leading-5 font-light text-center md:text-left"> © 2024 Amigos Venture Capital LLC . All rights reserved. </p>
             </div>
             <div>
                 <nav>
-                    <ul class="flex flex-col md:flex-row items-center gap-7">
+                    <ul class="flex flex-col md:flex-row items-center gap-6">
                         <li>
-                            <a class="text-white text-base font-light opacity-[.5]" href="/">Legal Disclaimer</a>
+                            <a class="text-white/50 hover:text-white/80 text-base font-light transition-opacity ease-linear duration-300" href="legal.html">Legal Disclaimer</a>
                         </li>
                         <li>
-                            <a class="text-white text-base font-light opacity-[.5]" href="/">Privacy & Cookie Policy</a>
+                            <a class="text-white/50 hover:text-white/80 text-base font-light transition-opacity ease-linear duration-300" href="privacy-policy.html">Privacy & Cookie Policy</a>
                         </li>
                         <li>
                             <a class="inline-block w-[21px] leading-[21px]" href="https://www.linkedin.com/company/amigos-venture-capital/about/"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -147,6 +129,6 @@
                 </nav>
             </div>
         </div>
-   </footer>
+    </footer>
   </body>
 </html>

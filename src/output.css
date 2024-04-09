@@ -1686,9 +1686,9 @@ html{
   gap: 2rem;
 }
 
-.gap-x-11 {
-  -moz-column-gap: 2.75rem;
-       column-gap: 2.75rem;
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
 }
 
 .gap-x-14 {
@@ -1721,10 +1721,6 @@ html{
 
 .gap-y-4 {
   row-gap: 1rem;
-}
-
-.gap-y-5 {
-  row-gap: 1.25rem;
 }
 
 .gap-y-8 {
@@ -2192,6 +2188,16 @@ html{
   border-color: rgb(23 23 23 / 0.1);
 }
 
+.border-futureorange {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 94 62 / var(--tw-border-opacity));
+}
+
+.border-lvory {
+  --tw-border-opacity: 1;
+  border-color: rgb(247 246 245 / var(--tw-border-opacity));
+}
+
 .bg-\[\#D9D9D9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(217 217 217 / var(--tw-bg-opacity));
@@ -2356,10 +2362,6 @@ html{
      object-position: center;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -2439,6 +2441,14 @@ html{
 
 .pb-\[40px\] {
   padding-bottom: 40px;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
 }
 
 .pt-10 {
@@ -3132,6 +3142,11 @@ html{
   color: rgb(209 209 209 / var(--tw-text-opacity));
 }
 
+.hover\:border-futureorange:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 94 62 / var(--tw-border-opacity));
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
@@ -3303,9 +3318,27 @@ html{
     border-bottom-width: 1px;
   }
 
+  .md\:border-b-2 {
+    border-bottom-width: 2px;
+  }
+
+  .md\:border-futureorange {
+    --tw-border-opacity: 1;
+    border-color: rgb(255 94 62 / var(--tw-border-opacity));
+  }
+
+  .md\:border-lvory {
+    --tw-border-opacity: 1;
+    border-color: rgb(247 246 245 / var(--tw-border-opacity));
+  }
+
   .md\:bg-lvory {
     --tw-bg-opacity: 1;
     background-color: rgb(247 246 245 / var(--tw-bg-opacity));
+  }
+
+  .md\:p-0 {
+    padding: 0px;
   }
 
   .md\:py-12 {
@@ -3325,6 +3358,10 @@ html{
 
   .md\:pb-0 {
     padding-bottom: 0px;
+  }
+
+  .md\:pb-1 {
+    padding-bottom: 0.25rem;
   }
 
   .md\:pb-10 {
@@ -3392,6 +3429,15 @@ html{
   .md\:text-charcoal {
     --tw-text-opacity: 1;
     color: rgb(23 23 23 / var(--tw-text-opacity));
+  }
+
+  .md\:hover\:border-b-2:hover {
+    border-bottom-width: 2px;
+  }
+
+  .md\:hover\:border-futureorange:hover {
+    --tw-border-opacity: 1;
+    border-color: rgb(255 94 62 / var(--tw-border-opacity));
   }
 }
 

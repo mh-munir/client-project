@@ -12,7 +12,7 @@
   </head>
   <body class="bg-lvory">
     <!-- Header -->
-    <header class="w-full shadow-md">
+    <header class="w-full shadow-md hidden">
         <nav class="max-w-[1070px] mx-auto flex justify-between items-center py-12 px-5">
             <a class="block max-w-52" href="/"> <img class="w-full h-auto" src="img/logo.svg" alt="Amigo Venture Capital"></a>
             <ul class="flex gap-x-11">
@@ -31,6 +31,7 @@
             </ul>
         </nav>
     </header>
+
     <main class="min-h-screen">
         <section class="pt-10 md:pt-24">
             <div class="max-w-[1070px] mx-auto px-5">
@@ -49,50 +50,50 @@
                     </div>
                 </div>
 
-                <div class="md:border-b border-charcoal/10 pb-[216px]">
+                <div class="border-b border-charcoal/10 pb-24 lg:pb-[216px]">
                     <form action="#">
-                        <div class="max-w-[480px] mb-6">
+                        <div class="max-w-full lg:max-w-[480px] mb-6">
                             <label class="text-xs uppercase font-light leading-5 block mb-1" for="company">Company</label>
                             <input class="w-full px-2 text-charcoal text-lg bg-white py-[17px] border border-charcoal/10 active:outline-0 active:shadow-none focus:outline focus:outline-charcoal/20 rounded-md" id="company" type="text">
                         </div>
-                        <div class="flex gap-x-[70px] justify-between mb-6">
-                            <div class="w-1/2">
+                        <div class="lg:flex gap-x-[70px] justify-between mb-6">
+                            <div class="w-full lg:w-1/2">
                                 <label class="text-xs uppercase font-light leading-5 block mb-1" for="name">Name</label>
                                 <input class="w-full px-2 text-charcoal text-lg bg-white py-[17px] border border-charcoal/10 active:outline-0 active:shadow-none focus:outline focus:outline-charcoal/20 rounded-md" id="name" type="text">
                             </div>
-                            <div class="w-1/2">
+                            <div class="w-full lg:w-1/2">
                                 <label class="text-xs uppercase font-light leading-5 block mb-1" for="email">Email</label>
                                 <input class="w-full px-2 text-charcoal text-lg bg-white py-[17px] border border-charcoal/10 active:outline-0 active:shadow-none focus:outline focus:outline-charcoal/20 rounded-md" id="email" type="email">
                             </div>
                         </div>
                         <div class="mb-6">
                             <label class="text-xs uppercase font-light leading-5 block mb-1" for="company">Message</label>
-                            <textarea class="w-full min-h-[400px] bg-white p-4 text-charcoal text-lg border border-charcoal/10 active:outline-0 active:shadow-none focus:outline focus:outline-charcoal/20 rounded-md placeholder:text-[#D1D1D1] font-light" placeholder="Describe your case" name="message" id="message"></textarea>
+                            <textarea class="w-full min-h-[330px] lg:min-h-[400px] bg-white p-4 text-charcoal text-lg border border-charcoal/10 active:outline-0 active:shadow-none focus:outline focus:outline-charcoal/20 rounded-md placeholder:text-[#D1D1D1] font-light" placeholder="Describe your case" name="message" id="message"></textarea>
                         </div>
                         <div class="text-right">
-                            <button type="submit" class="w-[128px] h-[64px] bg-futureorange rounded-md uppercase text-xl font-bold text-white">Send</button>
+                            <button type="submit" class="w-full md:w-[128px] h-[64px] bg-futureorange rounded-md uppercase text-xl font-bold text-white">Send</button>
                         </div>
                     </form>
                 </div>
 
-                <div class="py-32 md:border-b border-charcoal/10">
+                <div class="py-24 lg:py-32 border-b border-charcoal/10">
                     <div class="max-w-[637px]">
-                        <h3 class="text-[32px] font-bold text-charcoal mb-5">Offices</h3>
-                        <div class="flex">
-                            <div class="ml-7 w-48">
-                                <div class="w-[125px] mb-12">
+                        <h3 class="text-[32px] font-bold text-charcoal mb-5 text-center md:text-left">Offices</h3>
+                        <div class="flex flex-col-reverse md:flex-row justify-between gap-y-10">
+                            <div class="ml-7 w-full md:w-48 text-center md:text-left">
+                                <div class="w-[125px] mb-12 mx-auto md:ml-0">
                                     <h4 class="text-[22px] font-bold text-charcoal mb-1">Stockholm</h4>
                                     <p class="text-[15px] text-sm text-charcoal font-light leading-5">
                                         C/O Tuleby Studios Olivecronas väg 8113 61 Stockholm Sweden
                                     </p>
                                 </div>
-                                <div class="w-[196px] mb-12">
+                                <div class="w-[196px] mb-12 mx-auto md:ml-0">
                                     <h4 class="text-[22px] font-bold text-charcoal mb-1">Dubai</h4>
                                     <p class="text-[15px] text-sm text-charcoal font-light leading-5">
                                         C/O Sigma Private Partners Unit 18-32. Office Tower <br> Central Park Towers <br>DIFC Dubai <br> UAE
                                     </p>
                                 </div>
-                                <div class="w-[125px] mb-12">
+                                <div class="w-[125px] mb-12 mx-auto md:ml-0">
                                     <h4 class="text-[22px] font-bold text-charcoal mb-1">Lusaka</h4>
                                     <p class="text-[15px] text-sm text-charcoal font-light leading-5">
                                         The Paddock Leopards Hill Road Plot no 2174, Unit 19 Lusaka <br> Zambia
@@ -101,14 +102,14 @@
                                 <div></div>
                             </div>
                             <div class="flex-auto">
-                                <img class="max-w-[330px] ml-auto" src="img/map-offices2.png" alt="Office Map">
+                                <img class="max-w-[158px] md:max-w-[330px] h-auto mx-auto md:ml-auto" src="img/map-offices2.png" alt="Office Map">
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="pt-32 pb-56">
-                    <div class="max-w-[640px]">
+                <div class="pt-24 lg:pt-32 pb-56">
+                    <div class="max-w-[640px] text-center lg:text-left">
                         <h3 class="text-[32px] font-bold text-charcoal mb-5">Offices</h3>
                         <p class="text-[15px] text-sm leading-5 text-charcoal font-light mb-2">
                             We are always on the lookout for talented individuals who can contribute to our company's growth and success. We value innovation, creativity, and dedication. 

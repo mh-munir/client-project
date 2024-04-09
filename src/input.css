@@ -4,6 +4,10 @@
 
 @layer base {
   html{
+    font-family: 'Circular' !important;
+  }
+
+  body{
     font-family: 'Circular';
   }
 

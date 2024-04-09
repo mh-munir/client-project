@@ -6,12 +6,36 @@
   html{
     font-family: 'Circular';
   }
+
+  header{
+    transition: all .3s linear;
+  }
+
+  .sticky{
+    background-color: rgba(247, 246, 245, 0.9);
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05);
+  }
+
   @media only screen and (max-width: 767px) {
     .mobile-nav{
       transform: translateX(-50%);
       opacity: 0;
       visibility: hidden;
       transition: all .2s ease-in;
+      z-index: 99999;
+    }
+
+   .mobile-nav{
+      min-height: 100vh;
+      overflow-y: auto;
     }
     .mobile-show{
       transform: translateX(0%);

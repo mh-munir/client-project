@@ -793,14 +793,6 @@ html{
   margin-top: 5rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -2316,10 +2308,6 @@ html{
   padding: 1rem;
 }
 
-.p-24 {
-  padding: 6rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -2345,9 +2333,9 @@ html{
   padding-bottom: 3rem;
 }
 
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .py-8 {
@@ -2365,11 +2353,6 @@ html{
   padding-bottom: 17px;
 }
 
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -2378,16 +2361,16 @@ html{
   padding-bottom: 4rem;
 }
 
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
 .pb-28 {
   padding-bottom: 7rem;
 }
 
 .pb-56 {
   padding-bottom: 14rem;
-}
-
-.pb-\[216px\] {
-  padding-bottom: 216px;
 }
 
 .pb-\[228px\] {
@@ -2402,8 +2385,8 @@ html{
   padding-top: 2.5rem;
 }
 
-.pt-32 {
-  padding-top: 8rem;
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .pt-\[40px\] {
@@ -2412,14 +2395,6 @@ html{
 
 .pt-\[88px\] {
   padding-top: 88px;
-}
-
-.pb-24 {
-  padding-bottom: 6rem;
-}
-
-.pt-24 {
-  padding-top: 6rem;
 }
 
 .text-left {
@@ -3266,6 +3241,22 @@ html{
 
   .md\:pt-24 {
     padding-top: 6rem;
+  }
+
+  .md\:pb-3 {
+    padding-bottom: 0.75rem;
+  }
+
+  .md\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .md\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .md\:pb-24 {
+    padding-bottom: 6rem;
   }
 
   .md\:text-left {

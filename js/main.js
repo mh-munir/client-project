@@ -13,7 +13,7 @@ ClossNav.addEventListener('click',()=>{
 
 
 var Sticky = "sticky";
-var scrollTrigger = 500;
+var scrollTrigger = 1;
 
 window.onscroll = function() {
   if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {

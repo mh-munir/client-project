@@ -13,9 +13,10 @@
 
   header{
     transition: all .3s linear;
+    padding: 60px 0;
   }
 
-  .sticky{
+  header.sticky{
     background-color: rgba(247, 246, 245, 0.9);
     position: fixed;
     top:0;
@@ -26,9 +27,17 @@
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05);
+    padding: 25px 0;
   }
 
   @media only screen and (max-width: 767px) {
+    header{
+      transition: all .3s linear;
+      padding: 25px 0;
+    }
+    header.sticky{
+      padding: 20px 0;
+    }
     .mobile-nav{
       transform: translateX(-50%);
       opacity: 0;

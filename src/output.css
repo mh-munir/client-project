@@ -456,9 +456,10 @@ body{
 
 header{
   transition: all .3s linear;
+  padding: 60px 0;
 }
 
-.sticky{
+header.sticky{
   background-color: rgba(247, 246, 245, 0.9);
   position: fixed;
   top:0;
@@ -469,9 +470,19 @@ header{
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05);
+  padding: 25px 0;
 }
 
 @media only screen and (max-width: 767px) {
+  header{
+    transition: all .3s linear;
+    padding: 25px 0;
+  }
+
+  header.sticky{
+    padding: 20px 0;
+  }
+
   .mobile-nav{
     transform: translateX(-50%);
     opacity: 0;
@@ -786,6 +797,10 @@ header{
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.-mt-\[6px\] {
+  margin-top: -6px;
 }
 
 .mb-1 {
@@ -3043,8 +3058,8 @@ header{
   transition-duration: 150ms;
 }
 
-.transition-opacity {
-  transition-property: opacity;
+.transition-all {
+  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -3168,6 +3183,10 @@ header{
 .hover\:border-futureorange:hover {
   --tw-border-opacity: 1;
   border-color: rgb(255 94 62 / var(--tw-border-opacity));
+}
+
+.hover\:bg-sky_blue\/90:hover {
+  background-color: rgb(140 178 192 / 0.9);
 }
 
 .hover\:font-bold:hover {
@@ -3373,11 +3392,6 @@ header{
 
   .md\:p-0 {
     padding: 0px;
-  }
-
-  .md\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
   }
 
   .md\:py-20 {

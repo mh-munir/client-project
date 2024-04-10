@@ -3474,6 +3474,14 @@ header.sticky{
     line-height: 1.25rem;
   }
 
+  .md\:font-bold {
+    font-weight: 700;
+  }
+
+  .md\:uppercase {
+    text-transform: uppercase;
+  }
+
   .md\:leading-10 {
     line-height: 2.5rem;
   }

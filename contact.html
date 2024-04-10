@@ -29,16 +29,16 @@
                        <a class="text-[32px] md:text-lg font-normal text-white/50 md:text-charcoal capitalize" href="/"> Start  <span class="text-futureorange text-2xl inline-block md:hidden"> » </span> </a>
                    </li>
                    <li>
-                       <a class="text-[32px] md:text-lg font-normal text-white/50 md:text-charcoal capitalize md:border-b-2 md:pb-1 border-lvory/0 md:hover:border-b-2 hover:border-futureorange duration-300" href="entrepreneurs.html">For Entrepreneurs  <span class="text-futureorange text-2xl inline-block md:hidden"> » </span> </a>
+                       <a class="text-[32px] md:text-lg font-normal text-white/50 md:text-charcoal capitalize md:uppercase md:border-b-2 md:pb-1 border-lvory/0 md:hover:border-b-2 hover:border-futureorange duration-300" href="entrepreneurs.html">For Entrepreneurs  <span class="text-futureorange text-2xl inline-block md:hidden"> » </span> </a>
                    </li>
                    <li>
-                       <a class="text-[32px] md:text-lg font-normal text-white/50 md:text-charcoal capitalize md:border-b-2 md:pb-1 border-lvory/0 md:hover:border-b-2 hover:border-futureorange duration-300" href="network.html">Network <span class="text-futureorange text-2xl inline-block md:hidden"> » </span> </a>
+                       <a class="text-[32px] md:text-lg font-normal text-white/50 md:text-charcoal capitalize md:uppercase md:border-b-2 md:pb-1 border-lvory/0 md:hover:border-b-2 hover:border-futureorange duration-300" href="network.html">Network <span class="text-futureorange text-2xl inline-block md:hidden"> » </span> </a>
                    </li>
                    <li>
-                       <a class="text-[32px] md:text-lg font-normal text-white/50 md:text-charcoal capitalize md:border-b-2 md:pb-1 border-lvory/0 md:hover:border-b-2 hover:border-futureorange duration-300" href="news.html">News  <span class="text-futureorange text-2xl inline-block md:hidden"> » </span> </a>
+                       <a class="text-[32px] md:text-lg font-normal text-white/50 md:text-charcoal capitalize md:uppercase md:border-b-2 md:pb-1 border-lvory/0 md:hover:border-b-2 hover:border-futureorange duration-300" href="news.html">News  <span class="text-futureorange text-2xl inline-block md:hidden"> » </span> </a>
                    </li>
                    <li>
-                       <a class="text-[32px] md:text-lg font-normal text-white  md:text-charcoal capitalize md:border-b-2 md:pb-1 border-futureorange md:hover:border-b-2 hover:border-futureorange duration-300" href="contact.html">Contact <span class="text-futureorange text-2xl hidden"> » </span></a>
+                       <a class="text-[32px] md:text-lg font-normal text-white  md:text-charcoal capitalize md:font-bold md:uppercase md:border-b-2 md:pb-1 border-futureorange md:hover:border-b-2 hover:border-futureorange duration-300" href="contact.html">Contact <span class="text-futureorange text-2xl hidden"> » </span></a>
                    </li>
                </ul>
            </div>
@@ -71,19 +71,19 @@
                 </div>
 
                 <div class="border-b border-charcoal/10 pb-24 md:pb-32">
-                    <form action="#">
+                    <form onsubmit="sendEmail(); reset; return false;" action="submitted.html">
                         <div class="max-w-full lg:max-w-[480px] mb-6">
                             <label class="text-xs uppercase font-light leading-5 block mb-1" for="company">Company</label>
-                            <input class="w-full px-2 text-charcoal text-lg bg-white py-[17px] border border-charcoal/10 active:outline-0 active:shadow-none focus:outline focus:outline-charcoal/20 rounded-md" id="company" type="text">
+                            <input class="w-full px-2 text-charcoal text-lg bg-white py-[17px] border border-charcoal/10 active:outline-0 active:shadow-none focus:outline focus:outline-charcoal/20 rounded-md" id="company" type="text" autocomplete="off" required>
                         </div>
                         <div class="lg:flex gap-x-[70px] justify-between mb-6">
                             <div class="w-full lg:w-1/2">
                                 <label class="text-xs uppercase font-light leading-5 block mb-1" for="name">Name</label>
-                                <input class="w-full px-2 text-charcoal text-lg bg-white py-[17px] border border-charcoal/10 active:outline-0 active:shadow-none focus:outline focus:outline-charcoal/20 rounded-md" id="name" type="text">
+                                <input class="w-full px-2 text-charcoal text-lg bg-white py-[17px] border border-charcoal/10 active:outline-0 active:shadow-none focus:outline focus:outline-charcoal/20 rounded-md" id="name" type="text" autocomplete="off" required>
                             </div>
                             <div class="w-full lg:w-1/2">
                                 <label class="text-xs uppercase font-light leading-5 block mb-1" for="email">Email</label>
-                                <input class="w-full px-2 text-charcoal text-lg bg-white py-[17px] border border-charcoal/10 active:outline-0 active:shadow-none focus:outline focus:outline-charcoal/20 rounded-md" id="email" type="email">
+                                <input class="w-full px-2 text-charcoal text-lg bg-white py-[17px] border border-charcoal/10 active:outline-0 active:shadow-none focus:outline focus:outline-charcoal/20 rounded-md" id="email" type="email" autocomplete="off" required>
                             </div>
                         </div>
                         <div class="mb-6">
@@ -91,7 +91,7 @@
                             <textarea class="w-full min-h-[330px] lg:min-h-[400px] bg-white p-4 text-charcoal text-lg border border-charcoal/10 active:outline-0 active:shadow-none focus:outline focus:outline-charcoal/20 rounded-md placeholder:text-[#D1D1D1] font-light" placeholder="Describe your case" name="message" id="message"></textarea>
                         </div>
                         <div class="text-right">
-                            <button type="submit" class="w-full md:w-[128px] h-[64px] bg-futureorange rounded-md uppercase text-xl font-bold text-white">Send</button>
+                            <button id="submit" type="submit" class="w-full md:w-[128px] h-[64px] bg-futureorange rounded-md uppercase text-xl font-bold text-white">Send</button>
                         </div>
                     </form>
                 </div>
@@ -139,6 +139,8 @@
     </footer>
 
     <!-- js -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/form.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

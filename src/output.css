@@ -487,7 +487,7 @@ header.sticky{
     transform: translateX(-50%);
     opacity: 0;
     visibility: hidden;
-    transition: all .2s ease-in;
+    transition: all .2s ease-in-out;
     z-index: 99999;
     min-height: 100vh;
     overflow-y: auto;
@@ -3238,6 +3238,10 @@ header.sticky{
 }
 
 @media (min-width: 640px) {
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }

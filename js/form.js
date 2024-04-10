@@ -1,3 +1,4 @@
+// Submit Form
 function sendEmail() {
     Email.send({
       Host : "smtp.elasticemail.com",
